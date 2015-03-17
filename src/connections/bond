@@ -1,6 +1,6 @@
-#! /bin/bash
+#!/bin/bash
 . /usr/lib/network/network
-IFENSLAVE="/sbin/ifenslave"
+: ${IFENSLAVE:=ifenslave}
 
 bond_up() {
     load_profile "$1"
@@ -37,4 +37,3 @@ bond_down() {
 bond_$1 "$2"
 exit $?
 
-# vim: set ts=4 et sw=4:

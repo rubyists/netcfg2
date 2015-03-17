@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 . /usr/lib/network/network
 . "$SUBR_DIR/8021x"
 . "$SUBR_DIR/rfkill"
@@ -112,5 +112,4 @@ wireless_down() {
 wireless_$1 "$2" "$3"
 exit $?
 
-# vim: ft=sh ts=4 et sw=4 tw=0:
 

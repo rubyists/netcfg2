@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 . /usr/lib/network/network
 
 vlan_up() {
@@ -25,4 +25,3 @@ vlan_down() {
 
 vlan_$1 "$2"
 exit $?
-# vim: set ts=4 et sw=4:

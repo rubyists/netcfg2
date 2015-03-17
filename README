@@ -2,6 +2,9 @@ Dependencies:
 - Linux
 - Bash 4.x
 - GNU Coreutils
+- sed
+- grep
+- findutils
 - iproute2
 - dialog: for interactive menu
 - ifplugd: for automatic connection
@@ -21,6 +24,10 @@ For bonding support
 For bridge support:
 - bridge-utils
 
-For documentation generation:
-- asciidoc
+
+Make dependencies:
+- texman: for generating man page
+- texinfo: for generating info manual
+- gzip: for compressing manuals
+- auto-auto-complete: for generating shell auto-completion
 
